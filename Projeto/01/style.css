@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+div > .Hardware {
+    display: none;
+}
+
+div:hover > .Hardware {
+    display: block;
+}
+
+.Hardware > .Cooler {
+    display: none;
+}
+
+.Hardware:hover > .Cooler {
+    display: block;
+    
+}
